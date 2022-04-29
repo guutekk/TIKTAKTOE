@@ -17,9 +17,10 @@ namespace TIKTACTOE3D
         int a;
         int top;
         int left;
+        int punkty_x;
+        int punkty_y;
 
         List<PictureBox[]> pbList = new List<PictureBox[]> { };
-        PictureBox[] array = new PictureBox[4];
         PictureBox _clicked;
         public TikTakToe3D()
         {
@@ -121,14 +122,23 @@ namespace TIKTACTOE3D
             }
         }
 
+        private void Check_picturebox(int since, int where, char tag, PictureBox[] pictureboxes)
+        {
+            for (int i = since; i < where; i++)
+            {
+                if(Convert.ToChar(pictureboxes[i].Tag) == 'x')
+                {
+                    punkty_x =ch
+                }
+            }
+        }
+
         private void Check_X()
         {
 
             for(int i=0; i<4; i++)
             {
-                for(int j=0; j<=3; j++)
-                {
-                }
+                
             }
 
             /*if (Convert.ToChar(array1[0].Tag) == 'x' && Convert.ToChar(array1[1].Tag) == 'x' && Convert.ToChar(array1[2].Tag) == 'x' && Convert.ToChar(array1[3].Tag) == 'x' ||
