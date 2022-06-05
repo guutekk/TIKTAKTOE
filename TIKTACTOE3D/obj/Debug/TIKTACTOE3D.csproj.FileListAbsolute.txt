@@ -11,3 +11,16 @@ E:\TIKTACTOE3D 21-04-2022\TIKTACTOE3D\obj\Debug\TIKTACTOE3D.csproj.GenerateResou
 E:\TIKTACTOE3D 21-04-2022\TIKTACTOE3D\obj\Debug\TIKTACTOE3D.csproj.CoreCompileInputs.cache
 E:\TIKTACTOE3D 21-04-2022\TIKTACTOE3D\obj\Debug\TIKTACTOE3D.exe
 E:\TIKTACTOE3D 21-04-2022\TIKTACTOE3D\obj\Debug\TIKTACTOE3D.pdb
+C:\Users\Administrator\Desktop\TIKTAKTOE\TIKTACTOE3D\bin\Debug\TIKTACTOE3D.exe.config
+C:\Users\Administrator\Desktop\TIKTAKTOE\TIKTACTOE3D\bin\Debug\TIKTACTOE3D.exe
+C:\Users\Administrator\Desktop\TIKTAKTOE\TIKTACTOE3D\bin\Debug\TIKTACTOE3D.pdb
+C:\Users\Administrator\Desktop\TIKTAKTOE\TIKTACTOE3D\obj\Debug\TIKTACTOE3D.csproj.AssemblyReference.cache
+C:\Users\Administrator\Desktop\TIKTAKTOE\TIKTACTOE3D\obj\Debug\TIKTACTOE3D.Form1.resources
+C:\Users\Administrator\Desktop\TIKTAKTOE\TIKTACTOE3D\obj\Debug\TIKTACTOE3D.MainPage.resources
+C:\Users\Administrator\Desktop\TIKTAKTOE\TIKTACTOE3D\obj\Debug\TIKTACTOE3D.Properties.Resources.resources
+C:\Users\Administrator\Desktop\TIKTAKTOE\TIKTACTOE3D\obj\Debug\TIKTACTOE3D.TikTakToe3D.resources
+C:\Users\Administrator\Desktop\TIKTAKTOE\TIKTACTOE3D\obj\Debug\TIKTACTOE3D.Ustawienia.resources
+C:\Users\Administrator\Desktop\TIKTAKTOE\TIKTACTOE3D\obj\Debug\TIKTACTOE3D.csproj.GenerateResource.cache
+C:\Users\Administrator\Desktop\TIKTAKTOE\TIKTACTOE3D\obj\Debug\TIKTACTOE3D.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\TIKTAKTOE\TIKTACTOE3D\obj\Debug\TIKTACTOE3D.exe
+C:\Users\Administrator\Desktop\TIKTAKTOE\TIKTACTOE3D\obj\Debug\TIKTACTOE3D.pdb

@@ -19,6 +19,8 @@ namespace TIKTACTOE3D
         int left;
         int punkty_x;
         int punkty_y;
+        int test = 0;
+        int test2 = 0;
 
         List<PictureBox[]> pbList = new List<PictureBox[]> { };
         PictureBox _clicked;
@@ -32,14 +34,17 @@ namespace TIKTACTOE3D
 
         private void GameStart()
         {
-            for(int i = 1; i <= 4; i++)
+            for (int i = 1; i <= 4; i++)
+            {
                 pbList.Add(new PictureBox[16]);
+            }
 
             queue = 'o';
             Create_Area(pbList[0], "pole1", 112, 1198);
             Create_Area(pbList[1], "pole2", 306, 1245);
             Create_Area(pbList[2], "pole3", 500, 1292);
             Create_Area(pbList[3], "pole4", 694, 1339);
+
         }
 
         private void Create_Area(PictureBox[] pictureBox, string name, int _top, int _left)
@@ -128,17 +133,20 @@ namespace TIKTACTOE3D
             {
                 if(Convert.ToChar(pictureboxes[i].Tag) == 'x')
                 {
-                    punkty_x =ch
                 }
             }
         }
 
         private void Check_X()
         {
-
-            for(int i=0; i<4; i++)
+            var objectList = this.Controls.OfType<Control>().Where(x => x is PictureBox);
+            foreach (PictureBox k in objectList)
             {
-                
+                if (Convert.ToChar(k.Tag) == 'x')
+                {
+                    test++;
+                    Console.WriteLine(test);
+                }
             }
 
             /*if (Convert.ToChar(array1[0].Tag) == 'x' && Convert.ToChar(array1[1].Tag) == 'x' && Convert.ToChar(array1[2].Tag) == 'x' && Convert.ToChar(array1[3].Tag) == 'x' ||
@@ -216,25 +224,9 @@ namespace TIKTACTOE3D
 
         private void Reset_Area_Click(object sender, EventArgs e)
         {
-            //pictureBox[0].Image = 0;
-            /*
-            foreach(var k in pbList)
-            {
-                pbList.Remove(k);
-                Console.WriteLine("L: " + k);
-            }*/
-
-            pbList.Clear();
-            //GameStart();
-            var objectList = this.Controls.OfType<Control>().Where(x => x is PictureBox);
-            foreach (PictureBox k in objectList)
-            {
-                if (Convert.ToChar(k.Tag) ==  'x' || Convert.ToChar(k.Tag) == 'o')
-                {
-                    k.Image = Properties.Resources.pole;
-                }
-            }
-
+            Close();
+            TikTakToe3D tik = new TikTakToe3D();
+            tik.Show();
             GameStart();
         }
     }
